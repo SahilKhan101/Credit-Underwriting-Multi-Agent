@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Secrets / environment
+.env
+*.env
+
+# Generated runtime data (reproducible via scripts)
+data/synthetic/
+data/eval_set/
+vectorstore/
+
+# Trained models (not yet built)
+models/*.pkl
+models/*.joblib
+
+# Pytest
+.pytest_cache/
+.cache/
+htmlcov/
+.coverage
+
+# IDE
+.vscode/settings.json
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Build / dist
+dist/
+build/
+*.egg-info/

@@ -1,0 +1,3 @@
+[server]
+fileWatcherType = "none"   # prevents Streamlit from walking transformers submodules (torchvision error)
+headless = true
